@@ -223,23 +223,7 @@ export default function Hero() {
                                 </div>
                             </div>
                         </div>
-                        <div className="mxd-hero-06__bottom loading__fade">
-                            <div className="mxd-hero-06__mark">
-                                <div className="mxd-hero__mark">
-                                    <span className="mark-icon"></span>
-                                    <span className="mark-text">{t.hero.available}</span>
-                                </div>
-                            </div>
-                            <div className="mxd-hero-06__more">
-                                <a
-                                    className="btn btn-line-medium btn-anim btn-anim-medium slide-down"
-                                    href="#projects"
-                                >
-                                    <span className="btn-caption">{t.hero.scroll}</span>
-                                    <i className="ph-bold ph-arrow-elbow-right-down"></i>
-                                </a>
-                            </div>
-                        </div>
+                        
                         <div className="mxd-hero-06__btn-mobile">
                             <a
                                 href="#0"
