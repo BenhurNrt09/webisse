@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import "./globals.css";
 import Providers from "@/components/Providers";
@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Webisse - Dijital Ajans",
   description:
     "Webisse ile markanıza özel, modern ve etkileyici dijital deneyimler.",
+  metadataBase: new URL("https://webisse.com.tr"),
   icons: {
     icon: [
       { url: "/img/wicon.png", sizes: "any" },
@@ -28,6 +29,9 @@ export const metadata: Metadata = {
       },
     ],
   },
+};
+
+export const viewport: Viewport = {
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#FAF7F6" },
     { media: "(prefers-color-scheme: dark)", color: "#161616" },

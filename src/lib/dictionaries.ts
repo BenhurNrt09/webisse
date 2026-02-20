@@ -38,9 +38,9 @@ export const dictionaries = {
             headlineDescription: "Webisse, premium müşteriler için strateji, tasarım ve yazılım üreten teknoloji şirketidir.",
             getQuote: "Teklif Al * Teklif Al * Teklif Al * ",
             headlineTitle: "Kurumsal markalar için premium yazılım şirketi",
-            marqueeAgency: "Yazılım Şirketi", // Was Kurumsal Ajans
-            marqueeDev: "Creative developer",
-            marqueeIllustrator: "Illustrator",
+            marqueeAgency: "İlk İzlenimde Kalıcı Etki Bırakın",
+            marqueeDev: "Web Dünyasında Fark Yaratın",
+            marqueeIllustrator: "Mobil Dünyasında Öne Çıkın",
             available: "Proje için uygunuz",
             scroll: "Daha fazlası için kaydır",
         },
