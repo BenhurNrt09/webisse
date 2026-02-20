@@ -20,11 +20,11 @@ export default function About() {
                                     </h2>
                                 </div>
                             </div>
-                            <div className="col-12 col-xl-5 mxd-grid-item no-margin">
-                                <div className="mxd-block__name">
-                                    {/* Title moved to marquee image overlay */}
-                                </div>
-                            </div>
+                            <div className="col-12 col-xl-6 mxd-grid-item no-margin">
+                                <div className="mxd-block__content">
+                                    <div className="mxd-block__paragraph">
+                                        <p className="t-large t-bright anim-uni-in-up">
+                                            {t.about.description}
                                         </p>
                                         <div className="mxd-paragraph__lists">
                                             <div className="container-fluid p-0">
