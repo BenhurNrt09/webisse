@@ -6,6 +6,8 @@ import { useLanguage } from "@/context/LanguageContext";
 export default function PinnedProjects() {
     const { t } = useLanguage();
 
+    if (!t || !t.pinnedProjects) return null;
+
     return (
         <div id="references" className="mxd-section padding-hero-06 padding-default">
             <div className="mxd-container grid-container">
