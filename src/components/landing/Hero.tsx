@@ -99,9 +99,7 @@ export default function Hero() {
                                                     x="0px"
                                                     y="0px"
                                                     viewBox="0 0 160 160"
-                                                    style={{
-                                                        enableBackground: "new 0 0 160 160",
-                                                    }}
+                                                    enableBackground="new 0 0 160 160"
                                                     xmlSpace="preserve"
                                                     className="btn-rotating__text animate-rotation"
                                                     data-value="360"
@@ -255,7 +253,7 @@ export default function Hero() {
                                     x="0px"
                                     y="0px"
                                     viewBox="0 0 160 160"
-                                    style={{ enableBackground: "new 0 0 160 160" }}
+                                    enableBackground="new 0 0 160 160"
                                     xmlSpace="preserve"
                                     className="btn-rotating__text animate-rotation"
                                     data-value="360"

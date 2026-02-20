@@ -96,7 +96,7 @@ export default function StatsCards() {
                                                         width="60px"
                                                         height="60px"
                                                         viewBox="0 0 60 60"
-                                                        style={{ enableBackground: "new 0 0 60 60" }}
+                                                        enableBackground="new 0 0 60 60"
                                                         xmlSpace="preserve"
                                                     >
                                                         <path

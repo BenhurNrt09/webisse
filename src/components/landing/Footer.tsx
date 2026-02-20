@@ -21,7 +21,7 @@ export default function Footer() {
                             x="0px"
                             y="0px"
                             viewBox="0 0 518 72"
-                            style={{ enableBackground: "new 0 0 518 72" }}
+                            enableBackground="new 0 0 518 72"
                             xmlSpace="preserve"
                         >
                             <path d="M18.9,71.9C13,71.9,8.4,70.5,5,67.6c-3.4-2.9-5-6.7-5-11.4c0-5,1.7-8.8,5.1-11.5c3.4-2.7,8.3-4.1,14.8-4.1h15.5v-2
