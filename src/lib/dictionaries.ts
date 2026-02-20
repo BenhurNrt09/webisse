@@ -3,7 +3,7 @@ export type Locale = "tr" | "en";
 export const dictionaries = {
     tr: {
         navigation: {
-            slogan: "🚀 Premium markalar için<br>strateji, tasarım ve teknoloji",
+            slogan: "🚀 Geniş bir yelpazede sunulan hizmetlerimizle, dijital dünyada ihtiyaç duyduğunuz her şeyi karşılıyoruz",
             home: "Anasayfa",
             about: "Hakkımızda",
             services: "Hizmetler",
@@ -15,13 +15,13 @@ export const dictionaries = {
             corporateHome: "Kurumsal Anasayfa",
             blog: "Blog",
             article: "Makale",
-            promoCaption: "👋 Merhaba! Webisse, premium müşteriler için<br>strateji, tasarım ve yazılım üreten teknoloji şirketidir.",
+            promoCaption: "👋 Kullanıcı deneyimi odaklı, estetik ve işlevsel web tasarımları",
             promoLink: "premium dijital deneyimler",
             corporate: "Kurumsal",
             with: "ile",
         },
         header: {
-            logoText: "webisse<br>teknoloji",
+            logoText: "Webisse<br>Teknoloji",
             contactBtn: "İletişime Geç",
         },
         hero: {
@@ -37,51 +37,27 @@ export const dictionaries = {
             contentCreative: "İçerik & Kreatif",
             headlineDescription: "Webisse, premium müşteriler için strateji, tasarım ve yazılım üreten teknoloji şirketidir.",
             getQuote: "Teklif Al * Teklif Al * Teklif Al * ",
-            headlineTitle: "Kurumsal markalar için premium yazılım şirketi",
+            headlineTitle: "Dijital Dönüşüme Adım Atın",
             marqueeAgency: "İlk İzlenimde Kalıcı Etki Bırakın",
             marqueeDev: "Web Dünyasında Fark Yaratın",
             marqueeIllustrator: "Mobil Dünyasında Öne Çıkın",
             available: "Proje için uygunuz",
             scroll: "Daha fazlası için kaydır",
         },
-        pinnedProjects: {
-            title: "Referans<br>Projeler",
-            description: "Referans projelerimizden seçkilerle<br>kurumsal dönüşüm hikayeleri",
-            allReferences: "Tüm Referanslar",
-            transformation: {
-                title: "Kurumsal web dönüşüm projesi",
-                prefix: "Kurumsal web"
-            },
-            ai: {
-                title: "AI destekli müşteri deneyimi",
-                prefix: "AI destekli"
-            },
-            b2b: {
-                title: "B2B ürün platformu",
-                prefix: "B2B"
-            },
-            brand: {
-                title: "Marka kimliği ve dijital sistem",
-                prefix: "Marka"
-            },
-            ecommerce: {
-                title: "E-ticaret büyüme altyapısı",
-                prefix: "E-ticaret"
-            }
-        },
+        
         marqueeMe: {
             text: "Hakkımızda"
         },
         about: {
-            title: "Yaklaşım ve felsefemiz",
-            description: "Stratejiden tasarıma ve geliştirmeye kadar her adımı, premium markalar için ölçülebilir sonuçlar üretmek üzere kurguluyoruz.",
+            title: "Biz Kimiz",
+            description: "Web Webise Solutions, yenilikçi web çözümleri sunan bir yazılım şirketidir. Müşterilerimizin iş hedeflerini anlamak ve en uygun çözümleri sunmak için modern ve kullanıcı odaklı projeler tasarlar.",
             list1: ["Strateji", "Kalite", "Yaratıcılık", "Deneyim", "Performans", "Güven"],
             list2: ["Web Tasarım", "UI/UX", "Web Geliştirme", "E-ticaret", "Marka Kimliği", "İçerik & Kreatif"],
             getQuote: "Teklif Al",
             aboutUs: "Hakkımızda"
         },
         stats: {
-            trust: "Kurumsal müşterilerimizin<br>güveni ve memnuniyeti",
+            trust: "Seo Stratejileri",
             services: "Hizmetlerimiz",
             returnClients: "Müşterilerimiz yeni projeler için<br>geri dönüyor",
             expertise: "Kurumsal dijital dönüşümde uzmanlık",
@@ -207,31 +183,7 @@ export const dictionaries = {
             available: "Available for new projects",
             scroll: "Scroll for more",
         },
-        pinnedProjects: {
-            title: "Featured<br>projects",
-            description: "Corporate transformation stories with<br>selections from our reference projects",
-            allReferences: "All References",
-            transformation: {
-                title: "Corporate web transformation project",
-                prefix: "Corporate web"
-            },
-            ai: {
-                title: "AI powered customer experience",
-                prefix: "AI powered"
-            },
-            b2b: {
-                title: "B2B product platform",
-                prefix: "B2B"
-            },
-            brand: {
-                title: "Brand identity and digital system",
-                prefix: "Brand"
-            },
-            ecommerce: {
-                title: "E-commerce growth infrastructure",
-                prefix: "E-commerce"
-            }
-        },
+        
         marqueeMe: {
             text: "About Us"
         },
