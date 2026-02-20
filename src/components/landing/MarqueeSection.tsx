@@ -115,6 +115,16 @@ export default function MarqueeSection() {
                             </div>
                         </div>
                     </div>
+                    <div style={{ display: 'flex', justifyContent: 'center', marginTop: '24px' }}>
+                        <div style={{ position: 'relative', width: '400px', height: '400px', borderRadius: '24px', overflow: 'hidden' }}>
+                            <img src="/img/wpp.png" alt="wpp" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', pointerEvents: 'none' }}>
+                                <h3 style={{ background: 'rgba(0,0,0,0.5)', color: '#fff', padding: '12px 20px', borderRadius: '12px', margin: 0 }}>
+                                    {t.about.title}
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
                     {/* Block - Marquee Text One Line End */}
                 </div>
             </div>
