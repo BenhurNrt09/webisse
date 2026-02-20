@@ -11,7 +11,7 @@ export default function MarqueeSection() {
             {/* Section - Parallax Divider Start */}
             <div className="mxd-section padding-grid-pre-mtext">
                 <div className="mxd-container">
-                    <div className="mxd-divider" style={{ marginTop: "100px" }}>
+                    <div className="mxd-divider" style={{ marginTop: "100px", position: 'relative' }}>
                         <div
                             className="mxd-divider__image divider-image-4 parallax-img"
                             style={{
@@ -28,6 +28,11 @@ export default function MarqueeSection() {
                                 backgroundSize: "cover",
                             }}
                         ></div>
+                        <div style={{ position: 'absolute', inset: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', pointerEvents: 'none' }}>
+                            <h2 style={{ background: 'rgba(0,0,0,0.45)', color: '#fff', padding: '12px 24px', borderRadius: 12, margin: 0, fontSize: '2.25rem' }}>
+                                {t.about.title}
+                            </h2>
+                        </div>
                     </div>
                 </div>
             </div>
