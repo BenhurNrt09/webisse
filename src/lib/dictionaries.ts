@@ -16,9 +16,8 @@ export const dictionaries = {
             blog: "Blog",
             article: "Makale",
             promoCaption: "👋 Kullanıcı deneyimi odaklı, estetik ve işlevsel web tasarımları",
-            promoLink: "premium dijital deneyimler",
+            promoLink: "Dijital Geleceğinizi Tasarlıyoruz",
             corporate: "Kurumsal",
-            with: "ile",
         },
         header: {
             logoText: "Webisse<br>Teknoloji",
@@ -162,9 +161,8 @@ export const dictionaries = {
             blog: "Blog",
             article: "Article",
             promoCaption: "👋 Hello! Webisse is a technology company producing strategy, design, and software for premium clients.",
-            promoLink: "premium digital experiences",
+            promoLink: "Designing Your Digital Future",
             corporate: "Corporate",
-            with: "with",
         },
         header: {
             logoText: "Webisse<br>Technology",
@@ -308,9 +306,8 @@ export const dictionaries = {
             blog: "Blog",
             article: "Artikel",
             promoCaption: "👋 Hallo! Webisse ist ein Technologieunternehmen, das Strategie, Design und Software für Premium-Kunden produziert.",
-            promoLink: "Premium digitale Erlebnisse",
+            promoLink: "Wir gestalten Ihre digitale Zukunft",
             corporate: "Unternehmen",
-            with: "mit",
         },
         header: {
             logoText: "Webisse<br>Technologie",

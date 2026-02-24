@@ -101,20 +101,11 @@ export default function Navigation() {
                         {/* data bottom line */}
                         <div className="mxd-menu__data menu-fade-in">
                             <p className="t-xsmall">
-                                Webisse
-                                <i className="ph-fill ph-heart t-additional"></i>
-                                {t.navigation.with}
-                                <a
-                                    className="no-effect"
-                                    href="https://webisse.com.tr"
-                                    target="_blank"
-                                >
-                                    {t.navigation.promoLink}
-                                </a>
+                                Webisse — {t.navigation.promoLink}
                             </p>
                             <p className="t-xsmall">
                                 <i className="ph ph-copyright"></i>
-                                2025
+                                2026
                             </p>
                         </div>
                     </div>
