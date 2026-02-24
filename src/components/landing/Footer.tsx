@@ -21,11 +21,11 @@ export default function Footer() {
                 {/* Footer Block - Fullwidth Text End */}
 
                 {/* Footer Block - Info Columns Start */}
-                <div className="mxd-footer__footer-blocks" style={{ borderTop: "1px solid var(--stroke)" }}>
+                <div className="mxd-footer__footer-blocks" style={{ gap: "20px" }}>
                     {/* single column */}
                     <div className="footer-blocks__column animate-card-3">
                         {/* inner card */}
-                        <div className="footer-blocks__card fullheight-card">
+                        <div className="footer-blocks__card fullheight-card" style={{ border: "1px solid var(--stroke)", borderRadius: "24px", padding: "40px" }}>
                             {/* footer navigation */}
                             <div className="footer-blocks__nav">
                                 <ul className="footer-nav">
@@ -79,9 +79,9 @@ export default function Footer() {
                         </div>
                     </div>
                     {/* single column */}
-                    <div className="footer-blocks__column animate-card-3" style={{ borderLeft: "1px solid var(--stroke)", paddingLeft: "40px" }}>
+                    <div className="footer-blocks__column animate-card-3" style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
                         {/* inner card */}
-                        <div className="footer-blocks__card">
+                        <div className="footer-blocks__card" style={{ border: "1px solid var(--stroke)", borderRadius: "24px", padding: "30px" }}>
                             <p className="mxd-point-subtitle anim-uni-in-up">
                                 <svg
                                     version="1.1"
@@ -110,7 +110,7 @@ export default function Footer() {
                             </p>
                         </div>
                         {/* inner card */}
-                        <div className="footer-blocks__card">
+                        <div className="footer-blocks__card" style={{ border: "1px solid var(--stroke)", borderRadius: "24px", padding: "30px" }}>
                             <p className="mxd-point-subtitle anim-uni-in-up">
                                 <svg
                                     version="1.1"
@@ -137,7 +137,7 @@ export default function Footer() {
                             </p>
                         </div>
                         {/* inner card - Contact CTA */}
-                        <div className="footer-blocks__card fill-card notify">
+                        <div className="footer-blocks__card fill-card notify" style={{ border: "1px solid var(--stroke)", borderRadius: "24px", padding: "30px" }}>
                             {/* card title */}
                             <div className="footer-blocks__title anim-uni-in-up">
                                 <p className="footer-blocks__title-m">{t.footer.contactCtaDesc}</p>
@@ -155,9 +155,9 @@ export default function Footer() {
                         </div>
                     </div>
                     {/* single column */}
-                    <div className="footer-blocks__column animate-card-3" style={{ borderLeft: "1px solid var(--stroke)", paddingLeft: "40px" }}>
+                    <div className="footer-blocks__column animate-card-3">
                         {/* inner card */}
-                        <div className="footer-blocks__card fullheight-card">
+                        <div className="footer-blocks__card fullheight-card" style={{ border: "1px solid var(--stroke)", borderRadius: "24px", padding: "40px" }}>
                             {/* nav block */}
                             <div className="footer-blocks__block">
                                 {/* card title */}

@@ -10,7 +10,7 @@ export default function MarqueeSection() {
         <>
 
             {/* Section - Marquee Text One Line Start */}
-            <div className="mxd-section padding-mtext-pre-title">
+            <div className="mxd-section padding-mtext-pre-title" style={{ marginTop: "100px" }}>
                 <div className="mxd-container fullwidth-container">
                     {/* Block - Marquee Text One Line Start */}
                     <div className="mxd-block">

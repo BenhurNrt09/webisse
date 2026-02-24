@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import Navigation from "@/components/landing/Navigation";
 import Header from "@/components/landing/Header";
 import Footer from "@/components/landing/Footer";
@@ -13,6 +14,15 @@ const categoryColors: Record<string, string> = {
     "Branding": "#d97706",
     "Mobil": "#ec4899", "Mobile": "#ec4899",
     "SEO": "#8b5cf6",
+};
+
+const categoryIcons: Record<string, string> = {
+    "Tasarım": "ph-bold ph-paint-brush", "Design": "ph-bold ph-paint-brush",
+    "Teknoloji": "ph-bold ph-cpu", "Technology": "ph-bold ph-cpu", "Technologie": "ph-bold ph-cpu",
+    "E-ticaret": "ph-bold ph-shopping-cart", "E-commerce": "ph-bold ph-shopping-cart", "E-Commerce": "ph-bold ph-shopping-cart",
+    "Branding": "ph-bold ph-palette",
+    "Mobil": "ph-bold ph-device-mobile", "Mobile": "ph-bold ph-device-mobile",
+    "SEO": "ph-bold ph-chart-line-up",
 };
 
 export default function BlogPage() {
@@ -49,28 +59,40 @@ export default function BlogPage() {
                                 <div className="row gx-0" style={{ gap: "32px 0" }}>
                                     {p.posts.map((post: any, i: number) => (
                                         <div key={i} className="col-12 col-md-6 col-xl-4 mxd-grid-item">
-                                            <a href="#0" style={{ textDecoration: "none", color: "inherit", display: "block" }}>
-                                                <div style={{
+                                            <Link href={`/blog/${post.slug}`} style={{ textDecoration: "none", color: "inherit", display: "block" }}>
+                                                <div className="blog-card" style={{
                                                     borderRadius: 16,
                                                     overflow: "hidden",
                                                     border: "1px solid var(--stroke)",
                                                     transition: "transform 0.3s ease, box-shadow 0.3s ease",
                                                     height: "100%",
                                                     display: "flex",
-                                                    flexDirection: "column"
+                                                    flexDirection: "column",
+                                                    cursor: "pointer"
                                                 }}>
-                                                    {/* Placeholder Image */}
+                                                    {/* Category Header Image */}
                                                     <div style={{
                                                         height: 200,
                                                         background: `linear-gradient(135deg, ${categoryColors[post.category] || '#6366f1'}22, ${categoryColors[post.category] || '#6366f1'}44)`,
                                                         display: "flex",
                                                         alignItems: "center",
-                                                        justifyContent: "center"
+                                                        justifyContent: "center",
+                                                        position: "relative",
+                                                        overflow: "hidden"
                                                     }}>
-                                                        <i className="ph-bold ph-article" style={{
+                                                        <div style={{
+                                                            position: "absolute",
+                                                            width: 120, height: 120,
+                                                            borderRadius: "50%",
+                                                            background: `${categoryColors[post.category] || '#6366f1'}15`,
+                                                            top: -20, right: -20,
+                                                        }} />
+                                                        <i className={categoryIcons[post.category] || "ph-bold ph-article"} style={{
                                                             fontSize: 64,
                                                             color: categoryColors[post.category] || '#6366f1',
-                                                            opacity: 0.6
+                                                            opacity: 0.6,
+                                                            position: "relative",
+                                                            zIndex: 1
                                                         }}></i>
                                                     </div>
                                                     {/* Content */}
@@ -108,7 +130,7 @@ export default function BlogPage() {
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </a>
+                                            </Link>
                                         </div>
                                     ))}
                                 </div>

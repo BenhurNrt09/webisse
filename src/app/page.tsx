@@ -5,6 +5,7 @@ import Hero from "@/components/landing/Hero";
 import MarqueeSection from "@/components/landing/MarqueeSection";
 import About from "@/components/landing/About";
 import StatsCards from "@/components/landing/StatsCards";
+import Partners from "@/components/landing/Partners";
 import ContactCTA from "@/components/landing/ContactCTA";
 import Footer from "@/components/landing/Footer";
 
@@ -21,6 +22,7 @@ export default function Home() {
         <MarqueeSection />
         <About />
         <StatsCards />
+        <Partners />
         <ContactCTA />
       </main>
       <Footer />

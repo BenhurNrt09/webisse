@@ -71,6 +71,25 @@ export default function RootLayout({
             __html: `localStorage.setItem("template.theme","light");document.documentElement.setAttribute("color-scheme","light");`,
           }}
         />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(){
+                var origQS = Document.prototype.querySelector;
+                Document.prototype.querySelector = function(sel) {
+                  var result = origQS.call(this, sel);
+                  if (result === null) {
+                    var dummy = document.createElement('div');
+                    dummy.style.display = 'none';
+                    dummy.__isDummy = true;
+                    return dummy;
+                  }
+                  return result;
+                };
+              })();
+            `,
+          }}
+        />
         <Script src="/js/app.min.js" strategy="afterInteractive" />
       </body>
     </html>

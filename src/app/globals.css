@@ -48,3 +48,49 @@ h5,
 h6 {
   text-transform: capitalize;
 }
+
+.partner-logo:hover {
+  opacity: 1 !important;
+  filter: grayscale(0%) !important;
+  transform: scale(1.1);
+}
+
+.partners-track-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.partners-track {
+  display: flex;
+  gap: 80px;
+  animation: partners-scroll 30s linear infinite;
+  width: max-content;
+}
+
+.partners-track__item {
+  flex-shrink: 0;
+}
+
+.partner-logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  opacity: 0.5;
+  filter: grayscale(100%);
+  transition: all 0.4s ease;
+}
+
+@keyframes partners-scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.blog-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+}
