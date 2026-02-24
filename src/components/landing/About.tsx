@@ -19,6 +19,24 @@ export default function About() {
                                         {t.about.title}
                                     </h2>
                                 </div>
+                                <div className="mxd-paragraph__controls anim-uni-in-up" style={{ marginTop: "40px" }}>
+                                    <div className="mxd-btngroup">
+                                        <a
+                                            className="btn btn-anim btn-default btn-accent slide-down"
+                                            href="mailto:hello@webisse.com.tr"
+                                        >
+                                            <span className="btn-caption">{t.about.getQuote}</span>
+                                            <i className="ph-bold ph-arrow-down"></i>
+                                        </a>
+                                        <a
+                                            className="btn btn-anim btn-default btn-outline slide-right-up"
+                                            href="https://webisse.com.tr"
+                                        >
+                                            <span className="btn-caption">{t.about.aboutUs}</span>
+                                            <i className="ph-bold ph-arrow-up-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                             <div className="col-12 col-xl-6 mxd-grid-item no-margin">
                                 <div className="mxd-block__content">
@@ -50,24 +68,7 @@ export default function About() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="mxd-paragraph__controls anim-uni-in-up">
-                                            <div className="mxd-btngroup">
-                                                <a
-                                                    className="btn btn-anim btn-default btn-accent slide-down"
-                                                    href="mailto:hello@webisse.com.tr"
-                                                >
-                                                    <span className="btn-caption">{t.about.getQuote}</span>
-                                                    <i className="ph-bold ph-arrow-down"></i>
-                                                </a>
-                                                <a
-                                                    className="btn btn-anim btn-default btn-outline slide-right-up"
-                                                    href="https://webisse.com.tr"
-                                                >
-                                                    <span className="btn-caption">{t.about.aboutUs}</span>
-                                                    <i className="ph-bold ph-arrow-up-right"></i>
-                                                </a>
-                                            </div>
-                                        </div>
+
                                     </div>
                                 </div>
                             </div>

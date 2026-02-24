@@ -32,10 +32,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#FAF7F6" },
-    { media: "(prefers-color-scheme: dark)", color: "#161616" },
-  ],
+  themeColor: "#FAF7F6",
 };
 
 export default function RootLayout({
@@ -44,8 +41,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="tr" dir="ltr" suppressHydrationWarning>
+    <html lang="tr" dir="ltr" suppressHydrationWarning color-scheme="light">
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
         <meta
           name="msapplication-navbutton-color"
           content="#161616"
@@ -66,6 +66,11 @@ export default function RootLayout({
       <body>
         <Providers>{children}</Providers>
         <Script src="/js/libs.min.js" strategy="beforeInteractive" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `localStorage.setItem("template.theme","light");document.documentElement.setAttribute("color-scheme","light");`,
+          }}
+        />
         <Script src="/js/app.min.js" strategy="afterInteractive" />
       </body>
     </html>

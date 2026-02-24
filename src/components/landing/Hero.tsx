@@ -85,49 +85,7 @@ export default function Hero() {
                                         <p className="loading__item">
                                             {t.hero.headlineDescription}
                                         </p>
-                                        <div className="hero-06-headline__btn loading__item">
-                                            <a
-                                                href="#0"
-                                                className="btn-rotating btn-rotating-blur-outline ver-04 permanent-desktop"
-                                            >
-                                                {/* SVG rotating text */}
-                                                <svg
-                                                    version="1.1"
-                                                    id="scrollDown"
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                                    x="0px"
-                                                    y="0px"
-                                                    viewBox="0 0 160 160"
-                                                    enableBackground="new 0 0 160 160"
-                                                    xmlSpace="preserve"
-                                                    className="btn-rotating__text animate-rotation"
-                                                    data-value="360"
-                                                >
-                                                    <defs>
-                                                        <path
-                                                            id="textPath"
-                                                            d="M149.7,80c0,38.5-31.2,69.7-69.7,69.7S10.3,118.5,10.3,80S41.5,10.3,80,10.3S149.7,41.5,149.7,80z"
-                                                        />
-                                                    </defs>
-                                                    <g>
-                                                        <use xlinkHref="#textPath" fill="none"></use>
-                                                        <text>
-                                                            {/* button text here!!! */}
-                                                            <textPath xlinkHref="#textPath">
-                                                                {t.hero.getQuote}
-                                                            </textPath>
-                                                        </text>
-                                                    </g>
-                                                </svg>
-                                                {/* image */}
-                                                <img
-                                                    className="btn-rotating__image"
-                                                    src="img/icons/300x300_obj-btn-03.webp"
-                                                    alt="Object"
-                                                />
-                                            </a>
-                                        </div>
+
                                     </div>
                                     <div className="hero-06-headline__content">
                                         <h1 className="hero-06-headline__title">
@@ -223,49 +181,8 @@ export default function Hero() {
                                 </div>
                             </div>
                         </div>
-                        
-                        <div className="mxd-hero-06__btn-mobile">
-                            <a
-                                href="#0"
-                                className="btn-rotating btn-rotating-blur-outline ver-04 permanent-desktop"
-                            >
-                                {/* SVG rotating text */}
-                                <svg
-                                    version="1.1"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                                    x="0px"
-                                    y="0px"
-                                    viewBox="0 0 160 160"
-                                    enableBackground="new 0 0 160 160"
-                                    xmlSpace="preserve"
-                                    className="btn-rotating__text animate-rotation"
-                                    data-value="360"
-                                >
-                                    <defs>
-                                        <path
-                                            id="textPath"
-                                            d="M149.7,80c0,38.5-31.2,69.7-69.7,69.7S10.3,118.5,10.3,80S41.5,10.3,80,10.3S149.7,41.5,149.7,80z"
-                                        />
-                                    </defs>
-                                    <g>
-                                        <use xlinkHref="#textPath" fill="none"></use>
-                                        <text>
-                                            {/* button text here!!! */}
-                                            <textPath xlinkHref="#textPath">
-                                                {t.hero.getQuote}
-                                            </textPath>
-                                        </text>
-                                    </g>
-                                </svg>
-                                {/* image */}
-                                <img
-                                    className="btn-rotating__image"
-                                    src="img/icons/300x300_obj-btn-03.webp"
-                                    alt="Object"
-                                />
-                            </a>
-                        </div>
+
+
                     </div>
                 </div>
             </div>

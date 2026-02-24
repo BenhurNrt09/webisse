@@ -20,7 +20,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     useEffect(() => {
         // Check local storage for saved preference
         const saved = localStorage.getItem("webisse_lang") as Locale;
-        if (saved && (saved === "tr" || saved === "en")) {
+        if (saved && (saved === "tr" || saved === "en" || saved === "de")) {
             setLocale(saved);
             setT(dictionaries[saved]);
         }

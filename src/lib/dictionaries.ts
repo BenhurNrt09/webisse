@@ -1,4 +1,4 @@
-export type Locale = "tr" | "en";
+export type Locale = "tr" | "en" | "de";
 
 export const dictionaries = {
     tr: {
@@ -44,7 +44,7 @@ export const dictionaries = {
             available: "Proje için uygunuz",
             scroll: "Daha fazlası için kaydır",
         },
-        
+
         marqueeMe: {
             text: "Hakkımızda"
         },
@@ -111,6 +111,16 @@ export const dictionaries = {
                 desc: "This cource is about how to complete the design process from beginning to end."
             }
         },
+        pinnedProjects: {
+            title: "Öne Çıkan Projeler",
+            description: "Her biri kendi alanında fark yaratan, tutkuyla geliştirdiğimiz seçkin çalışmalarımız.",
+            allReferences: "Tüm Referanslar",
+            transformation: { title: "Kurumsal web dönüşüm projesi" },
+            ai: { title: "AI destekli içerik platformu" },
+            b2b: { title: "B2B büyüme platformu" },
+            brand: { title: "Marka kimliği tasarımı" },
+            ecommerce: { title: "E-ticaret deneyim tasarımı" }
+        },
         references: {
             title: "Referans Projeler",
             description: "Premium müşterilerimizle ürettiğimiz sonuç odaklı projeler ve büyüme hikayeleri.",
@@ -124,20 +134,17 @@ export const dictionaries = {
             btn: "İletişime Geç"
         },
         footer: {
-            subscribe: "İçgörülerimize abone olun:",
-            done: "Tamamlandı! Abone olduğunuz için teşekkürler.",
-            error: "Hata! Bir şeyler ters gitti.",
-            emailPlaceholder: "E-posta Adresiniz",
+            contactCta: "İletişime Geç",
+            contactCtaDesc: "Projeniz için bizimle iletişime geçin",
             home: "Anasayfa",
             about: "Hakkımızda",
-            references: "Referanslar",
-            services: "Hizmetler",
-            insights: "İçgörüler",
+            corporate: "Kurumsal",
+            blog: "Blog",
             contact: "İletişim",
             privacy: "Gizlilik Politikası",
             terms: "Kullanım Koşulları",
-            ecosystem: "Ekosistem",
-            rights: "Webisse © 2025"
+            socialMedia: "Sosyal Medya",
+            rights: "Webisse © 2026"
         }
     },
     en: {
@@ -160,7 +167,7 @@ export const dictionaries = {
             with: "with",
         },
         header: {
-            logoText: "webisse<br>technology",
+            logoText: "Webisse<br>Technology",
             contactBtn: "Get in Touch",
         },
         hero: {
@@ -183,7 +190,7 @@ export const dictionaries = {
             available: "Available for new projects",
             scroll: "Scroll for more",
         },
-        
+
         marqueeMe: {
             text: "About Us"
         },
@@ -250,6 +257,16 @@ export const dictionaries = {
                 desc: "This cource is about how to complete the design process from beginning to end."
             }
         },
+        pinnedProjects: {
+            title: "Pinned Projects",
+            description: "Our selected works developed with passion, each making a difference in its own field.",
+            allReferences: "All References",
+            transformation: { title: "Corporate web transformation project" },
+            ai: { title: "AI powered content platform" },
+            b2b: { title: "B2B growth platform" },
+            brand: { title: "Brand identity design" },
+            ecommerce: { title: "E-commerce experience design" }
+        },
         references: {
             title: "References",
             description: "Result-oriented projects and growth stories we produce with our premium clients.",
@@ -263,20 +280,163 @@ export const dictionaries = {
             btn: "Get in Touch"
         },
         footer: {
-            subscribe: "Subscribe to our insights:",
-            done: "Done! Thanks for subscribing.",
-            error: "Ooops! Something went wrong.",
-            emailPlaceholder: "Your Email",
+            contactCta: "Get in Touch",
+            contactCtaDesc: "Contact us for your project",
             home: "Home",
             about: "About",
-            references: "References",
-            services: "Services",
-            insights: "Insights",
+            corporate: "Corporate",
+            blog: "Blog",
             contact: "Contact",
             privacy: "Privacy Policy",
             terms: "Terms of Use",
-            ecosystem: "Ecosystem",
-            rights: "Webisse © 2025"
+            socialMedia: "Social Media",
+            rights: "Webisse © 2026"
+        }
+    },
+    de: {
+        navigation: {
+            slogan: "🚀 Strategie, Design und Technologie<br>für Premium-Marken",
+            home: "Startseite",
+            about: "Über uns",
+            services: "Dienstleistungen",
+            references: "Referenzen",
+            insights: "Einblicke",
+            contact: "Kontakt",
+            caseStudies: "Fallstudien",
+            projectDetails: "Projektdetails",
+            corporateHome: "Unternehmensseite",
+            blog: "Blog",
+            article: "Artikel",
+            promoCaption: "👋 Hallo! Webisse ist ein Technologieunternehmen, das Strategie, Design und Software für Premium-Kunden produziert.",
+            promoLink: "Premium digitale Erlebnisse",
+            corporate: "Unternehmen",
+            with: "mit",
+        },
+        header: {
+            logoText: "Webisse<br>Technologie",
+            contactBtn: "Kontaktieren",
+        },
+        hero: {
+            strategy: "Strategie",
+            premiumDesign: "Premium Design",
+            experience: "Erfahrung",
+            performance: "Leistung",
+            growth: "Wachstum",
+            uiux: "UI/UX",
+            webDesign: "Webdesign",
+            webDev: "Webentwicklung",
+            brandIdentity: "Markenidentität",
+            contentCreative: "Inhalt & Kreativ",
+            headlineDescription: "Webisse ist ein Technologieunternehmen, das Strategie, Design und Software für Premium-Kunden produziert.",
+            getQuote: "Angebot * Angebot * Angebot * ",
+            headlineTitle: "Premium-Softwareunternehmen für Unternehmensmarken",
+            marqueeAgency: "Softwareunternehmen",
+            marqueeDev: "Kreativer Entwickler",
+            marqueeIllustrator: "Illustrator",
+            available: "Verfügbar für neue Projekte",
+            scroll: "Scrollen für mehr",
+        },
+
+        marqueeMe: {
+            text: "Über Uns"
+        },
+        about: {
+            title: "Unser Ansatz und unsere Philosophie",
+            description: "Wir orchestrieren jeden Schritt von der Strategie über Design bis zur Entwicklung, um messbare Ergebnisse für Premium-Marken zu erzielen.",
+            list1: ["Strategie", "Qualität", "Kreativität", "Erfahrung", "Leistung", "Vertrauen"],
+            list2: ["Webdesign", "UI/UX", "Webentwicklung", "E-Commerce", "Markenidentität", "Inhalt & Kreativ"],
+            getQuote: "Angebot",
+            aboutUs: "Über Uns"
+        },
+        stats: {
+            trust: "Vertrauen und Zufriedenheit<br>unserer Firmenkunden",
+            services: "Unsere Dienstleistungen",
+            returnClients: "Kunden kommen für<br>neue Projekte zurück",
+            expertise: "Expertise in der digitalen Unternehmenstransformation",
+            startProject: "Neues Projekt starten",
+            completed: "Abgeschlossene<br>Unternehmensprojekte"
+        },
+        expertise: {
+            title: "Unsere Expertise",
+            allServices: "Alle Dienstleistungen",
+            market: "Performance Marketing",
+            content: "Inhalt & Kreativ",
+            strategy: "Digitale Strategie",
+            uiux: "UI/UX Design",
+            webDev: "Webentwicklung",
+            brand: "Markenidentität"
+        },
+        services: {
+            title: "Dienstleistungen",
+            strategy: {
+                title: "Digitale Strategie",
+                desc: "Ziele, Positionierung, Roadmap und KPI-Setup."
+            },
+            design: {
+                title: "UI/UX Design",
+                desc: "Unternehmensinterface, Designsystem und Erlebnisarchitektur."
+            },
+            dev: {
+                title: "Web- & Softwareentwicklung",
+                desc: "Hochleistungsfähige, sichere und skalierbare Lösungen."
+            },
+            premiumField: "Premium-Dienstleistungsbereich"
+        },
+        techStack: {
+            title: "Technologie<br>und Werkzeuge"
+        },
+        education: {
+            title: "Zertifikate<br>& Ausbildung",
+            ny: {
+                title: "Drawing Concentration",
+                source: "New York Academy of Art",
+                desc: "Intensive Zeichenkurse, die die grundlegenden Prinzipien des Zeichnens vermitteln."
+            },
+            calarts: {
+                title: "UI/UX Design Spezialisierung",
+                source: "California Institute of Arts",
+                desc: "Forschung, Design und Prototyping effektiver, visuell gestalteter Websites und Apps."
+            },
+            coursera: {
+                title: "UI/UX Designer",
+                source: "Coursera",
+                desc: "Dieser Kurs behandelt den gesamten Designprozess von Anfang bis Ende."
+            }
+        },
+        pinnedProjects: {
+            title: "Ausgewählte Projekte",
+            description: "Unsere mit Leidenschaft entwickelten ausgewählten Werke, die jeweils in ihrem Bereich einen Unterschied machen.",
+            allReferences: "Alle Referenzen",
+            transformation: { title: "Unternehmens-Web-Transformationsprojekt" },
+            ai: { title: "KI-gestützte Content-Plattform" },
+            b2b: { title: "B2B-Wachstumsplattform" },
+            brand: { title: "Markenidentitätsdesign" },
+            ecommerce: { title: "E-Commerce-Erlebnisdesign" }
+        },
+        references: {
+            title: "Referenzen",
+            description: "Ergebnisorientierte Projekte und Wachstumsgeschichten, die wir mit unseren Premium-Kunden umsetzen.",
+            all: "Alle Referenzen",
+            p1: "<span>Unternehmens-Web</span>-Transformationsprojekt",
+            p2: "<span>B2B-Lead</span>-Plattform für Wachstum",
+            p3: "<span>Premium</span>-Erlebnisdesign im E-Commerce"
+        },
+        cta: {
+            caption: "Lassen Sie uns Ihr Projekt gemeinsam wachsen.",
+            btn: "Kontaktieren"
+        },
+        footer: {
+            contactCta: "Kontaktieren",
+            contactCtaDesc: "Kontaktieren Sie uns für Ihr Projekt",
+            home: "Startseite",
+            about: "Über uns",
+            corporate: "Unternehmen",
+            blog: "Blog",
+            contact: "Kontakt",
+            privacy: "Datenschutzrichtlinie",
+            terms: "Nutzungsbedingungen",
+            socialMedia: "Soziale Medien",
+            rights: "Webisse © 2026"
         }
     }
 };
