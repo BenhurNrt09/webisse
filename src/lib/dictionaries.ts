@@ -132,6 +132,84 @@ export const dictionaries = {
             caption: "Projenizi birlikte büyütelim.",
             btn: "İletişime Geç"
         },
+        pages: {
+            about: {
+                heroTitle: "Hakkımızda",
+                heroDesc: "Dijital dünyada fark yaratan çözümler üreten bir teknoloji şirketiyiz.",
+                missionTitle: "Misyonumuz",
+                missionDesc: "Premium markalar için strateji, tasarım ve yazılım üreterek dijital dönüşümü hızlandırmak. Müşterilerimizin hedeflerini anlıyor, onlara en uygun çözümleri sunuyoruz.",
+                visionTitle: "Vizyonumuz",
+                visionDesc: "Türkiye'nin lider dijital ajansı olarak, global standartlarda hizmet sunmak ve müşterilerimizin büyüme hikayelerinin bir parçası olmak.",
+                valuesTitle: "Değerlerimiz",
+                values: [
+                    { title: "Yenilikçilik", desc: "Her projede sınırları zorlayarak yenilikçi çözümler üretiyoruz." },
+                    { title: "Kalite", desc: "Her detayda mükemmeliyeti hedefliyor, premium standartlarda çalışıyoruz." },
+                    { title: "Şeffaflık", desc: "Müşterilerimizle açık ve dürüst bir iletişim sürdürüyoruz." },
+                    { title: "İş Birliği", desc: "Takım çalışmasına inanıyor, birlikte daha güçlü oluyoruz." }
+                ],
+                timelineTitle: "Yolculuğumuz",
+                timeline: [
+                    { year: "2022", title: "Kuruluş", desc: "Webisse, İstanbul'da kuruldu." },
+                    { year: "2023", title: "Büyüme", desc: "İlk 50 kurumsal müşterimize ulaştık." },
+                    { year: "2024", title: "Genişleme", desc: "Uluslararası projelere başladık." },
+                    { year: "2025", title: "Liderlik", desc: "Sektörde referans noktası olduk." }
+                ]
+            },
+            corporate: {
+                heroTitle: "Kurumsal",
+                heroDesc: "Teknoloji ve yaratıcılığı birleştirerek markaları geleceğe taşıyoruz.",
+                infoTitle: "Şirket Bilgileri",
+                founded: "Kuruluş",
+                foundedValue: "2022, İstanbul",
+                team: "Ekip",
+                teamValue: "15+ Uzman",
+                clients: "Müşteri",
+                clientsValue: "100+ Kurumsal Marka",
+                location: "Konum",
+                locationValue: "İstanbul, Türkiye",
+                servicesTitle: "Hizmet Alanlarımız",
+                servicesList: [
+                    { title: "Dijital Strateji", desc: "Hedef kitle analizi, rakip analizi ve dijital yol haritası oluşturma." },
+                    { title: "UI/UX Tasarım", desc: "Kullanıcı odaklı, modern ve işlevsel arayüz tasarımları." },
+                    { title: "Web Geliştirme", desc: "Performanslı, güvenli ve ölçeklenebilir web uygulamaları." },
+                    { title: "Mobil Uygulama", desc: "iOS ve Android için native ve cross-platform çözümler." },
+                    { title: "Marka Kimliği", desc: "Logo, kurumsal kimlik ve marka rehberi tasarımı." },
+                    { title: "SEO & Pazarlama", desc: "Arama motoru optimizasyonu ve dijital pazarlama stratejileri." }
+                ],
+                techTitle: "Teknoloji Ortaklarımız"
+            },
+            blog: {
+                heroTitle: "Blog",
+                heroDesc: "Dijital dünyadan son trendler, içgörüler ve uzman görüşleri.",
+                readMore: "Devamını Oku",
+                posts: [
+                    { title: "2026'da Web Tasarım Trendleri", excerpt: "Yeni yılda öne çıkan tasarım yaklaşımları ve kullanıcı deneyimi trendlerini keşfedin.", date: "15 Şubat 2026", category: "Tasarım" },
+                    { title: "Yapay Zeka ile Dijital Dönüşüm", excerpt: "AI teknolojilerinin iş dünyasını nasıl dönüştürdüğünü ve şirketlere sağladığı avantajları inceliyoruz.", date: "10 Şubat 2026", category: "Teknoloji" },
+                    { title: "E-ticaret Başarı Stratejileri", excerpt: "Online satışlarınızı artırmak için uygulamanız gereken kanıtlanmış stratejiler.", date: "5 Şubat 2026", category: "E-ticaret" },
+                    { title: "Marka Kimliği Oluşturmanın Temelleri", excerpt: "Güçlü bir marka kimliği oluşturmanın adımları ve dikkat edilmesi gereken noktalar.", date: "1 Şubat 2026", category: "Branding" },
+                    { title: "Mobil Uygulama Geliştirme Rehberi", excerpt: "Başarılı bir mobil uygulama geliştirme süreci için bilmeniz gereken her şey.", date: "25 Ocak 2026", category: "Mobil" },
+                    { title: "SEO: Sıralama Yükseltme İpuçları", excerpt: "Google'da üst sıralara çıkmanız için uygulamanız gereken en etkili SEO teknikleri.", date: "20 Ocak 2026", category: "SEO" }
+                ]
+            },
+            contact: {
+                heroTitle: "İletişim",
+                heroDesc: "Projeniz için bizimle iletişime geçin. Size en kısa sürede dönüş yapalım.",
+                formTitle: "Bize Ulaşın",
+                name: "Adınız",
+                email: "E-posta",
+                subject: "Konu",
+                message: "Mesajınız",
+                send: "Gönder",
+                infoTitle: "İletişim Bilgileri",
+                emailLabel: "E-posta",
+                emailValue: "hello@webisse.com.tr",
+                phoneLabel: "Telefon",
+                phoneValue: "+90 542 105 99 58",
+                addressLabel: "Adres",
+                addressValue: "İstanbul, Türkiye",
+                socialTitle: "Sosyal Medya"
+            }
+        },
         footer: {
             contactCta: "İletişime Geç",
             contactCtaDesc: "Projeniz için bizimle iletişime geçin",
@@ -277,6 +355,84 @@ export const dictionaries = {
             caption: "Let's grow your project together.",
             btn: "Get in Touch"
         },
+        pages: {
+            about: {
+                heroTitle: "About Us",
+                heroDesc: "We are a technology company creating solutions that make a difference in the digital world.",
+                missionTitle: "Our Mission",
+                missionDesc: "To accelerate digital transformation by producing strategy, design, and software for premium brands. We understand our clients' goals and deliver the most suitable solutions.",
+                visionTitle: "Our Vision",
+                visionDesc: "As Turkey's leading digital agency, to provide services at global standards and be part of our clients' growth stories.",
+                valuesTitle: "Our Values",
+                values: [
+                    { title: "Innovation", desc: "We push boundaries to create innovative solutions in every project." },
+                    { title: "Quality", desc: "We aim for excellence in every detail, working at premium standards." },
+                    { title: "Transparency", desc: "We maintain open and honest communication with our clients." },
+                    { title: "Collaboration", desc: "We believe in teamwork and are stronger together." }
+                ],
+                timelineTitle: "Our Journey",
+                timeline: [
+                    { year: "2022", title: "Founded", desc: "Webisse was founded in Istanbul." },
+                    { year: "2023", title: "Growth", desc: "We reached our first 50 corporate clients." },
+                    { year: "2024", title: "Expansion", desc: "We started international projects." },
+                    { year: "2025", title: "Leadership", desc: "We became a reference point in the industry." }
+                ]
+            },
+            corporate: {
+                heroTitle: "Corporate",
+                heroDesc: "We carry brands into the future by combining technology and creativity.",
+                infoTitle: "Company Information",
+                founded: "Founded",
+                foundedValue: "2022, Istanbul",
+                team: "Team",
+                teamValue: "15+ Experts",
+                clients: "Clients",
+                clientsValue: "100+ Corporate Brands",
+                location: "Location",
+                locationValue: "Istanbul, Turkey",
+                servicesTitle: "Our Service Areas",
+                servicesList: [
+                    { title: "Digital Strategy", desc: "Target audience analysis, competitor analysis, and digital roadmap creation." },
+                    { title: "UI/UX Design", desc: "User-centric, modern, and functional interface designs." },
+                    { title: "Web Development", desc: "High-performance, secure, and scalable web applications." },
+                    { title: "Mobile App", desc: "Native and cross-platform solutions for iOS and Android." },
+                    { title: "Brand Identity", desc: "Logo, corporate identity, and brand guideline design." },
+                    { title: "SEO & Marketing", desc: "Search engine optimization and digital marketing strategies." }
+                ],
+                techTitle: "Our Technology Partners"
+            },
+            blog: {
+                heroTitle: "Blog",
+                heroDesc: "Latest trends, insights, and expert opinions from the digital world.",
+                readMore: "Read More",
+                posts: [
+                    { title: "Web Design Trends in 2026", excerpt: "Discover the leading design approaches and user experience trends of the new year.", date: "February 15, 2026", category: "Design" },
+                    { title: "Digital Transformation with AI", excerpt: "We examine how AI technologies are transforming the business world and the advantages they provide.", date: "February 10, 2026", category: "Technology" },
+                    { title: "E-commerce Success Strategies", excerpt: "Proven strategies you should implement to increase your online sales.", date: "February 5, 2026", category: "E-commerce" },
+                    { title: "Fundamentals of Brand Identity", excerpt: "Steps to building a strong brand identity and key points to consider.", date: "February 1, 2026", category: "Branding" },
+                    { title: "Mobile App Development Guide", excerpt: "Everything you need to know for a successful mobile app development process.", date: "January 25, 2026", category: "Mobile" },
+                    { title: "SEO: Tips to Boost Rankings", excerpt: "The most effective SEO techniques to help you climb to the top of Google.", date: "January 20, 2026", category: "SEO" }
+                ]
+            },
+            contact: {
+                heroTitle: "Contact",
+                heroDesc: "Get in touch with us for your project. We'll get back to you as soon as possible.",
+                formTitle: "Reach Us",
+                name: "Your Name",
+                email: "Email",
+                subject: "Subject",
+                message: "Your Message",
+                send: "Send",
+                infoTitle: "Contact Information",
+                emailLabel: "Email",
+                emailValue: "hello@webisse.com.tr",
+                phoneLabel: "Phone",
+                phoneValue: "+90 542 105 99 58",
+                addressLabel: "Address",
+                addressValue: "Istanbul, Turkey",
+                socialTitle: "Social Media"
+            }
+        },
         footer: {
             contactCta: "Get in Touch",
             contactCtaDesc: "Contact us for your project",
@@ -421,6 +577,84 @@ export const dictionaries = {
         cta: {
             caption: "Lassen Sie uns Ihr Projekt gemeinsam wachsen.",
             btn: "Kontaktieren"
+        },
+        pages: {
+            about: {
+                heroTitle: "Über Uns",
+                heroDesc: "Wir sind ein Technologieunternehmen, das Lösungen schafft, die in der digitalen Welt einen Unterschied machen.",
+                missionTitle: "Unsere Mission",
+                missionDesc: "Die digitale Transformation durch Strategie, Design und Software für Premium-Marken zu beschleunigen. Wir verstehen die Ziele unserer Kunden und liefern die passendsten Lösungen.",
+                visionTitle: "Unsere Vision",
+                visionDesc: "Als führende Digitalagentur der Türkei Dienstleistungen auf globalem Niveau anzubieten und Teil der Wachstumsgeschichten unserer Kunden zu sein.",
+                valuesTitle: "Unsere Werte",
+                values: [
+                    { title: "Innovation", desc: "Wir überschreiten Grenzen, um in jedem Projekt innovative Lösungen zu schaffen." },
+                    { title: "Qualität", desc: "Wir streben Exzellenz in jedem Detail an und arbeiten nach Premium-Standards." },
+                    { title: "Transparenz", desc: "Wir pflegen eine offene und ehrliche Kommunikation mit unseren Kunden." },
+                    { title: "Zusammenarbeit", desc: "Wir glauben an Teamarbeit und sind gemeinsam stärker." }
+                ],
+                timelineTitle: "Unsere Reise",
+                timeline: [
+                    { year: "2022", title: "Gründung", desc: "Webisse wurde in Istanbul gegründet." },
+                    { year: "2023", title: "Wachstum", desc: "Wir erreichten unsere ersten 50 Firmenkunden." },
+                    { year: "2024", title: "Expansion", desc: "Wir starteten internationale Projekte." },
+                    { year: "2025", title: "Führung", desc: "Wir wurden zum Referenzpunkt der Branche." }
+                ]
+            },
+            corporate: {
+                heroTitle: "Unternehmen",
+                heroDesc: "Wir tragen Marken in die Zukunft, indem wir Technologie und Kreativität verbinden.",
+                infoTitle: "Unternehmensinformationen",
+                founded: "Gegründet",
+                foundedValue: "2022, Istanbul",
+                team: "Team",
+                teamValue: "15+ Experten",
+                clients: "Kunden",
+                clientsValue: "100+ Unternehmensmarken",
+                location: "Standort",
+                locationValue: "Istanbul, Türkei",
+                servicesTitle: "Unsere Dienstleistungsbereiche",
+                servicesList: [
+                    { title: "Digitale Strategie", desc: "Zielgruppenanalyse, Wettbewerbsanalyse und digitale Roadmap-Erstellung." },
+                    { title: "UI/UX Design", desc: "Benutzerzentrierte, moderne und funktionale Interface-Designs." },
+                    { title: "Webentwicklung", desc: "Hochleistungsfähige, sichere und skalierbare Webanwendungen." },
+                    { title: "Mobile App", desc: "Native und Cross-Platform-Lösungen für iOS und Android." },
+                    { title: "Markenidentität", desc: "Logo, Corporate Identity und Markenrichtlinien-Design." },
+                    { title: "SEO & Marketing", desc: "Suchmaschinenoptimierung und digitale Marketingstrategien." }
+                ],
+                techTitle: "Unsere Technologiepartner"
+            },
+            blog: {
+                heroTitle: "Blog",
+                heroDesc: "Neueste Trends, Einblicke und Expertenmeinungen aus der digitalen Welt.",
+                readMore: "Mehr lesen",
+                posts: [
+                    { title: "Webdesign-Trends 2026", excerpt: "Entdecken Sie die führenden Designansätze und UX-Trends des neuen Jahres.", date: "15. Februar 2026", category: "Design" },
+                    { title: "Digitale Transformation mit KI", excerpt: "Wie KI-Technologien die Geschäftswelt transformieren und welche Vorteile sie bieten.", date: "10. Februar 2026", category: "Technologie" },
+                    { title: "E-Commerce-Erfolgsstrategien", excerpt: "Bewährte Strategien zur Steigerung Ihrer Online-Verkäufe.", date: "5. Februar 2026", category: "E-Commerce" },
+                    { title: "Grundlagen der Markenidentität", excerpt: "Schritte zum Aufbau einer starken Markenidentität und wichtige Punkte.", date: "1. Februar 2026", category: "Branding" },
+                    { title: "Leitfaden zur App-Entwicklung", excerpt: "Alles, was Sie für einen erfolgreichen Entwicklungsprozess mobiler Apps wissen müssen.", date: "25. Januar 2026", category: "Mobil" },
+                    { title: "SEO: Tipps zur Rankingverbesserung", excerpt: "Die effektivsten SEO-Techniken, um bei Google nach oben zu klettern.", date: "20. Januar 2026", category: "SEO" }
+                ]
+            },
+            contact: {
+                heroTitle: "Kontakt",
+                heroDesc: "Kontaktieren Sie uns für Ihr Projekt. Wir melden uns schnellstmöglich bei Ihnen.",
+                formTitle: "Erreichen Sie uns",
+                name: "Ihr Name",
+                email: "E-Mail",
+                subject: "Betreff",
+                message: "Ihre Nachricht",
+                send: "Senden",
+                infoTitle: "Kontaktdaten",
+                emailLabel: "E-Mail",
+                emailValue: "hello@webisse.com.tr",
+                phoneLabel: "Telefon",
+                phoneValue: "+90 542 105 99 58",
+                addressLabel: "Adresse",
+                addressValue: "Istanbul, Türkei",
+                socialTitle: "Soziale Medien"
+            }
         },
         footer: {
             contactCta: "Kontaktieren",

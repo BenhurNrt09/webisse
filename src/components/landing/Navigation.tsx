@@ -41,22 +41,22 @@ export default function Navigation() {
                                             </a>
                                         </li>
                                         <li className="main-menu__item">
-                                            <a className="main-menu__link btn btn-anim" href="#about">
+                                            <a className="main-menu__link btn btn-anim" href="/hakkimizda">
                                                 <span className="btn-caption">{t.navigation.about}</span>
                                             </a>
                                         </li>
                                         <li className="main-menu__item">
-                                            <a className="main-menu__link btn btn-anim" href="#corporate">
+                                            <a className="main-menu__link btn btn-anim" href="/kurumsal">
                                                 <span className="btn-caption">{t.navigation.corporate}</span>
                                             </a>
                                         </li>
                                         <li className="main-menu__item">
-                                            <a className="main-menu__link btn btn-anim" href="#insights">
+                                            <a className="main-menu__link btn btn-anim" href="/blog">
                                                 <span className="btn-caption">{t.navigation.blog}</span>
                                             </a>
                                         </li>
                                         <li className="main-menu__item">
-                                            <a className="main-menu__link btn btn-anim" href="#contact">
+                                            <a className="main-menu__link btn btn-anim" href="/iletisim">
                                                 <span className="btn-caption">{t.navigation.contact}</span>
                                             </a>
                                         </li>

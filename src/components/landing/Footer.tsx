@@ -30,28 +30,28 @@ export default function Footer() {
                             <div className="footer-blocks__nav">
                                 <ul className="footer-nav">
                                     <li className="footer-nav__item anim-uni-in-up">
-                                        <a href="#0" className="footer-nav__link btn-anim">
+                                        <a href="/" className="footer-nav__link btn-anim">
                                             <span className="btn-caption">{t.footer.home}</span>
                                         </a>
                                     </li>
                                     <li className="footer-nav__item anim-uni-in-up">
-                                        <a href="#about" className="footer-nav__link btn-anim">
+                                        <a href="/hakkimizda" className="footer-nav__link btn-anim">
                                             <span className="btn-caption">{t.footer.about}</span>
                                         </a>
                                     </li>
                                     <li className="footer-nav__item anim-uni-in-up">
-                                        <a href="#0" className="footer-nav__link btn-anim">
+                                        <a href="/kurumsal" className="footer-nav__link btn-anim">
                                             <span className="btn-caption">{t.footer.corporate}</span>
                                         </a>
                                     </li>
                                     <li className="footer-nav__item anim-uni-in-up">
-                                        <a href="#0" className="footer-nav__link btn-anim">
+                                        <a href="/blog" className="footer-nav__link btn-anim">
                                             <span className="btn-caption">{t.footer.blog}</span>
                                         </a>
                                     </li>
                                     <li className="footer-nav__item anim-uni-in-up">
                                         <a
-                                            href="mailto:hello@webisse.com.tr"
+                                            href="/iletisim"
                                             className="footer-nav__link btn-anim"
                                         >
                                             <span className="btn-caption">{t.footer.contact}</span>
