@@ -21,7 +21,7 @@ export default function Footer() {
                 {/* Footer Block - Fullwidth Text End */}
 
                 {/* Footer Block - Info Columns Start */}
-                <div className="mxd-footer__footer-blocks">
+                <div className="mxd-footer__footer-blocks" style={{ borderTop: "1px solid var(--stroke)" }}>
                     {/* single column */}
                     <div className="footer-blocks__column animate-card-3">
                         {/* inner card */}
@@ -79,7 +79,7 @@ export default function Footer() {
                         </div>
                     </div>
                     {/* single column */}
-                    <div className="footer-blocks__column animate-card-3">
+                    <div className="footer-blocks__column animate-card-3" style={{ borderLeft: "1px solid var(--stroke)", paddingLeft: "40px" }}>
                         {/* inner card */}
                         <div className="footer-blocks__card">
                             <p className="mxd-point-subtitle anim-uni-in-up">
@@ -155,7 +155,7 @@ export default function Footer() {
                         </div>
                     </div>
                     {/* single column */}
-                    <div className="footer-blocks__column animate-card-3">
+                    <div className="footer-blocks__column animate-card-3" style={{ borderLeft: "1px solid var(--stroke)", paddingLeft: "40px" }}>
                         {/* inner card */}
                         <div className="footer-blocks__card fullheight-card">
                             {/* nav block */}
