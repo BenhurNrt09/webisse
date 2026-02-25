@@ -133,7 +133,7 @@ export const dictionaries = {
             btn: "İletişime Geç"
         },
         partners: {
-            title: "İş Ortaklarımız"
+            title: "Memnun Kalan Bazı Müşterilerimiz"
         },
         pages: {
             about: {
@@ -358,7 +358,7 @@ export const dictionaries = {
             btn: "Get in Touch"
         },
         partners: {
-            title: "Our Partners"
+            title: "Some of Our Satisfied Customers"
         },
         pages: {
             about: {
@@ -585,7 +585,7 @@ export const dictionaries = {
             btn: "Kontaktieren"
         },
         partners: {
-            title: "Unsere Partner"
+            title: "Einige unserer zufriedenen Kunden"
         },
         pages: {
             about: {
