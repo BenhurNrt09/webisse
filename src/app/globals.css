@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .partner-logo:hover {
@@ -93,4 +93,14 @@ h6 {
 .blog-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure blog cards are always clickable and top-level */
+.blog-card,
+.blog-card * {
+  pointer-events: auto !important;
+}
+
+.mxd-grid-item {
+  z-index: 10;
 }

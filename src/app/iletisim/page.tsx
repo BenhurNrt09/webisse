@@ -45,7 +45,7 @@ export default function IletisimPage() {
                     <div className="mxd-container grid-container">
                         <div className="mxd-block">
                             <div style={{ maxWidth: 700 }}>
-                                <h1 className="reveal-type" style={{ fontSize: "clamp(40px, 6vw, 72px)", fontWeight: 800, lineHeight: 1.1, marginBottom: 24 }}>
+                                <h1 className="reveal-type" style={{ fontSize: "clamp(40px, 6vw, 72px)", fontWeight: 800, lineHeight: 1.1, marginBottom: 24, textTransform: "none" }}>
                                     {p.heroTitle}
                                 </h1>
                                 <p className="t-large t-medium anim-uni-in-up" style={{ maxWidth: 560, lineHeight: 1.7 }}>
@@ -61,7 +61,7 @@ export default function IletisimPage() {
                     <div className="mxd-container grid-container">
                         <div className="mxd-block">
                             <div className="container-fluid px-0">
-                                <div className="row gx-0" style={{ gap: "40px 0" }}>
+                                <div className="row gx-4 gy-5">
                                     {/* Form */}
                                     <div className="col-12 col-xl-7 mxd-grid-item">
                                         <div style={{
@@ -72,8 +72,8 @@ export default function IletisimPage() {
                                             <h2 style={{ fontSize: 28, fontWeight: 700, marginBottom: 32 }}>{p.formTitle}</h2>
                                             <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: 20 }}>
                                                 <div className="container-fluid px-0">
-                                                    <div className="row gx-0" style={{ gap: "20px 0" }}>
-                                                        <div className="col-12 col-md-6 mxd-grid-item">
+                                                    <div className="row gx-4 gy-4">
+                                                        <div className="col-12 col-md-6">
                                                             <input
                                                                 type="text"
                                                                 name="name"
@@ -84,7 +84,7 @@ export default function IletisimPage() {
                                                                 required
                                                             />
                                                         </div>
-                                                        <div className="col-12 col-md-6 mxd-grid-item">
+                                                        <div className="col-12 col-md-6">
                                                             <input
                                                                 type="email"
                                                                 name="email"

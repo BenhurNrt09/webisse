@@ -8,12 +8,12 @@ import Footer from "@/components/landing/Footer";
 import { useLanguage } from "@/context/LanguageContext";
 
 const categoryColors: Record<string, string> = {
-    "Tasarım": "#6366f1", "Design": "#6366f1",
-    "Teknoloji": "#0891b2", "Technology": "#0891b2", "Technologie": "#0891b2",
-    "E-ticaret": "#059669", "E-commerce": "#059669", "E-Commerce": "#059669",
-    "Branding": "#d97706",
-    "Mobil": "#ec4899", "Mobile": "#ec4899",
-    "SEO": "#8b5cf6",
+    "Tasarım": "#000", "Design": "#000",
+    "Teknoloji": "#000", "Technology": "#000", "Technologie": "#000",
+    "E-ticaret": "#000", "E-commerce": "#000", "E-Commerce": "#000",
+    "Branding": "#000",
+    "Mobil": "#000", "Mobile": "#000",
+    "SEO": "#000",
 };
 
 const categoryIcons: Record<string, string> = {
@@ -70,44 +70,46 @@ export default function BlogPage() {
                                                     flexDirection: "column",
                                                     cursor: "pointer"
                                                 }}>
-                                                    {/* Category Header Image */}
+                                                    {/* Blog Header Image */}
                                                     <div style={{
-                                                        height: 200,
-                                                        background: `linear-gradient(135deg, ${categoryColors[post.category] || '#6366f1'}22, ${categoryColors[post.category] || '#6366f1'}44)`,
-                                                        display: "flex",
-                                                        alignItems: "center",
-                                                        justifyContent: "center",
+                                                        height: 240,
                                                         position: "relative",
-                                                        overflow: "hidden"
+                                                        overflow: "hidden",
+                                                        background: "#f0f0f0"
                                                     }}>
+                                                        <img
+                                                            src={post.image || "/img/blog/placeholder.webp"}
+                                                            alt={post.title}
+                                                            style={{
+                                                                width: "100%",
+                                                                height: "100%",
+                                                                objectFit: "cover",
+                                                                transition: "transform 0.5s ease"
+                                                            }}
+                                                            className="blog_card_img"
+                                                        />
                                                         <div style={{
                                                             position: "absolute",
-                                                            width: 120, height: 120,
-                                                            borderRadius: "50%",
-                                                            background: `${categoryColors[post.category] || '#6366f1'}15`,
-                                                            top: -20, right: -20,
-                                                        }} />
-                                                        <i className={categoryIcons[post.category] || "ph-bold ph-article"} style={{
-                                                            fontSize: 64,
-                                                            color: categoryColors[post.category] || '#6366f1',
-                                                            opacity: 0.6,
-                                                            position: "relative",
-                                                            zIndex: 1
-                                                        }}></i>
-                                                    </div>
-                                                    {/* Content */}
-                                                    <div style={{ padding: "24px", flex: 1, display: "flex", flexDirection: "column" }}>
-                                                        <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 16 }}>
+                                                            top: 16,
+                                                            left: 16,
+                                                            zIndex: 2
+                                                        }}>
                                                             <span style={{
                                                                 padding: "4px 12px",
                                                                 background: categoryColors[post.category] || '#6366f1',
                                                                 color: "#fff",
                                                                 borderRadius: 20,
                                                                 fontSize: 12,
-                                                                fontWeight: 600
+                                                                fontWeight: 600,
+                                                                boxShadow: "0 4px 12px rgba(0,0,0,0.1)"
                                                             }}>
                                                                 {post.category}
                                                             </span>
+                                                        </div>
+                                                    </div>
+                                                    {/* Content */}
+                                                    <div style={{ padding: "24px", flex: 1, display: "flex", flexDirection: "column" }}>
+                                                        <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 12 }}>
                                                             <span className="t-muted" style={{ fontSize: 13 }}>{post.date}</span>
                                                         </div>
                                                         <h3 style={{ fontSize: 20, fontWeight: 700, marginBottom: 12, lineHeight: 1.3 }}>

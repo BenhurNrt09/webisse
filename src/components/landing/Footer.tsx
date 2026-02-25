@@ -169,7 +169,7 @@ export default function Footer() {
                                     <ul className="footer-socials">
                                         <li className="footer-socials__item anim-uni-in-up">
                                             <a
-                                                href="https://www.linkedin.com/company/webisse"
+                                                href="https://www.linkedin.com/company/webisse/"
                                                 className="footer-socials__link"
                                                 target="_blank"
                                             >
@@ -178,7 +178,7 @@ export default function Footer() {
                                         </li>
                                         <li className="footer-socials__item anim-uni-in-up">
                                             <a
-                                                href="https://www.instagram.com/webisse"
+                                                href="https://www.instagram.com/webisseteknoloji?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                                                 className="footer-socials__link"
                                                 target="_blank"
                                             >

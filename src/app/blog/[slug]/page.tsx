@@ -9,12 +9,12 @@ import Footer from "@/components/landing/Footer";
 import { useLanguage } from "@/context/LanguageContext";
 
 const categoryColors: Record<string, string> = {
-    "Tasarım": "#6366f1", "Design": "#6366f1",
-    "Teknoloji": "#0891b2", "Technology": "#0891b2", "Technologie": "#0891b2",
-    "E-ticaret": "#059669", "E-commerce": "#059669", "E-Commerce": "#059669",
-    "Branding": "#d97706",
-    "Mobil": "#ec4899", "Mobile": "#ec4899",
-    "SEO": "#8b5cf6",
+    "Tasarım": "#000", "Design": "#000",
+    "Teknoloji": "#000", "Technology": "#000", "Technologie": "#000",
+    "E-ticaret": "#000", "E-commerce": "#000", "E-Commerce": "#000",
+    "Branding": "#000",
+    "Mobil": "#000", "Mobile": "#000",
+    "SEO": "#000",
 };
 
 const categoryIcons: Record<string, string> = {
@@ -69,54 +69,45 @@ export default function BlogDetailPage() {
                 {/* Hero Image */}
                 <div style={{
                     paddingTop: "120px",
-                    background: `linear-gradient(135deg, ${color}15, ${color}35)`,
+                    background: "var(--base)",
                     position: "relative",
                     overflow: "hidden"
                 }}>
-                    <div style={{
-                        height: 340,
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        position: "relative"
-                    }}>
-                        {/* Decorative circles */}
+                    <div className="mxd-container grid-container">
                         <div style={{
-                            position: "absolute",
-                            width: 300, height: 300,
-                            borderRadius: "50%",
-                            background: `${color}15`,
-                            top: -60, right: "10%",
-                        }} />
-                        <div style={{
-                            position: "absolute",
-                            width: 200, height: 200,
-                            borderRadius: "50%",
-                            background: `${color}10`,
-                            bottom: -40, left: "5%",
-                        }} />
-                        <div style={{
+                            height: "clamp(300px, 40vh, 500px)",
+                            borderRadius: 24,
+                            overflow: "hidden",
                             position: "relative",
-                            zIndex: 1,
-                            textAlign: "center"
+                            boxShadow: "0 20px 40px rgba(0,0,0,0.1)"
                         }}>
-                            <i className={icon} style={{
-                                fontSize: 80,
-                                color: color,
-                                opacity: 0.7,
-                                marginBottom: 16,
-                                display: "block"
-                            }}></i>
-                            <span style={{
-                                padding: "6px 20px",
-                                background: color,
-                                color: "#fff",
-                                borderRadius: 24,
-                                fontSize: 14,
-                                fontWeight: 600
+                            <img
+                                src={post.image || "/img/blog/placeholder.webp"}
+                                alt={post.title}
+                                style={{
+                                    width: "100%",
+                                    height: "100%",
+                                    objectFit: "cover"
+                                }}
+                            />
+                            <div style={{
+                                position: "absolute",
+                                bottom: 32,
+                                left: 32,
+                                zIndex: 2
                             }}>
-                                {post.category}
-                            </span>
+                                <span style={{
+                                    padding: "8px 24px",
+                                    background: color,
+                                    color: "#fff",
+                                    borderRadius: 30,
+                                    fontSize: 14,
+                                    fontWeight: 600,
+                                    boxShadow: "0 4px 12px rgba(0,0,0,0.2)"
+                                }}>
+                                    {post.category}
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -208,7 +199,7 @@ export default function BlogDetailPage() {
                                         {p.backToBlog || "Blog'a Dön"}
                                     </Link>
                                     <div style={{ display: "flex", gap: 12 }}>
-                                        <a href="#0" style={{
+                                        <a href="https://www.instagram.com/webisseteknoloji?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" style={{
                                             width: 40, height: 40,
                                             borderRadius: "50%",
                                             border: "1px solid var(--stroke)",
@@ -221,7 +212,7 @@ export default function BlogDetailPage() {
                                         }}>
                                             <i className="ph-bold ph-instagram-logo" style={{ fontSize: 18 }}></i>
                                         </a>
-                                        <a href="#0" style={{
+                                        <a href="https://www.linkedin.com/company/webisse/" target="_blank" style={{
                                             width: 40, height: 40,
                                             borderRadius: "50%",
                                             border: "1px solid var(--stroke)",

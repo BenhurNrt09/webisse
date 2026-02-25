@@ -115,41 +115,6 @@ export default function KurumsalPage() {
                     </div>
                 </div>
 
-                {/* Tech Partners */}
-                <div className="mxd-section padding-default" style={{ background: "var(--base)", paddingBottom: 80 }}>
-                    <div className="mxd-container grid-container">
-                        <div className="mxd-block">
-                            <h2 className="reveal-type" style={{ fontSize: "clamp(28px, 4vw, 48px)", fontWeight: 700, marginBottom: 48 }}>
-                                {p.techTitle}
-                            </h2>
-                            <div className="container-fluid px-0">
-                                <div className="row gx-0" style={{ gap: "24px 0", justifyContent: "center" }}>
-                                    {techLogos.map((tech, i) => (
-                                        <div key={i} className="col-4 col-md-3 col-xl-2 mxd-grid-item" style={{ textAlign: "center" }}>
-                                            <div style={{
-                                                padding: "24px",
-                                                background: "#f8f8f8",
-                                                borderRadius: 16,
-                                                display: "flex",
-                                                flexDirection: "column",
-                                                alignItems: "center",
-                                                gap: 12,
-                                                height: "100%"
-                                            }}>
-                                                <img
-                                                    src={tech.icon}
-                                                    alt={tech.name}
-                                                    style={{ width: 48, height: 48, objectFit: "contain" }}
-                                                />
-                                                <span style={{ fontSize: 14, fontWeight: 500 }}>{tech.name}</span>
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </main>
             <Footer />
         </>
