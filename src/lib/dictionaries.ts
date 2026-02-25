@@ -5,7 +5,7 @@ export const dictionaries = {
         navigation: {
             slogan: "🚀 Geniş bir yelpazede sunulan hizmetlerimizle, dijital dünyada ihtiyaç duyduğunuz her şeyi karşılıyoruz",
             home: "Anasayfa",
-            about: "Hakkimizda",
+            about: "Hakkımızda",
             services: "Hizmetler",
             references: "Referanslar",
             insights: "İçgörüler",
@@ -216,7 +216,7 @@ export const dictionaries = {
             contactCta: "İletişime Geç",
             contactCtaDesc: "Projeniz için bizimle iletişime geçin",
             home: "Anasayfa",
-            about: "Hakkimizda",
+            about: "Hakkımızda",
             corporate: "Kurumsal",
             blog: "Blog",
             contact: "İletişim",
