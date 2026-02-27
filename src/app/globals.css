@@ -63,7 +63,7 @@ h6 {
 .partners-track {
   display: flex;
   gap: 80px;
-  animation: partners-scroll 30s linear infinite;
+  animation: partners-scroll 100s linear infinite;
   width: max-content;
 }
 
@@ -103,4 +103,27 @@ h6 {
 
 .mxd-grid-item {
   z-index: 10;
+}
+
+/* CTA Button Styling Refinement */
+.mxd-promo .btn.btn-additional {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 1px solid #ffffff !important;
+}
+
+.mxd-promo .btn.btn-additional .btn-caption,
+.mxd-promo .btn.btn-additional i {
+  color: #ffffff !important;
+}
+
+.mxd-promo .btn.btn-additional:hover {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+.mxd-promo .btn.btn-additional:hover .btn-caption,
+.mxd-promo .btn.btn-additional:hover i {
+  color: #000000 !important;
 }

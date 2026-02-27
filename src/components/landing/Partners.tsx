@@ -29,10 +29,10 @@ export default function Partners() {
                 <div className="mxd-block">
                     <div className="mxd-block__name">
                         <h2 className="reveal-type anim-uni-in-up" style={{
-                            fontSize: "clamp(48px, 6vw, 100px)",
+                            fontSize: "clamp(32px, 4vw, 56px)",
                             fontWeight: 900,
                             lineHeight: 1,
-                            marginBottom: "60px",
+                            marginBottom: "40px",
                             textTransform: "uppercase"
                         }}>
                             {title}
@@ -42,19 +42,19 @@ export default function Partners() {
             </div>
 
             <div className="partners-track-wrapper">
-                <div className="partners-track">
+                <div className="partners-track" style={{ gap: "120px" }}>
                     {[...customers, ...customers, ...customers, ...customers].map((src, index) => (
                         <div key={index} className="partners-track__item">
                             <div className="partner-logo" style={{
-                                width: "160px",
-                                height: "80px",
+                                width: "280px",
+                                height: "140px",
                                 display: "flex",
                                 alignItems: "center",
                                 justifyContent: "center",
                                 background: "#fff",
-                                borderRadius: "12px",
-                                padding: "12px",
-                                border: "1px solid var(--stroke)"
+                                borderRadius: "20px",
+                                padding: "20px",
+                                // border: "1px solid var(--stroke)"
                             }}>
                                 <img src={src} alt="Customer" style={{
                                     maxWidth: "100%",

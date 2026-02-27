@@ -69,8 +69,8 @@ export default function StatsCards() {
                                         </div>
                                         <div className="mxd-stats-cards__image mxd-stats-cards-image-1">
                                             <img
-                                                src="img/illustrations/800x800_card-image-01.webp"
-                                                alt="Illustration"
+                                                src="img/stats-seo.png"
+                                                alt="SEO Strategies"
                                             />
                                         </div>
                                     </div>
@@ -134,8 +134,8 @@ export default function StatsCards() {
                                         </div>
                                         <div className="mxd-stats-cards__image mxd-stats-cards-image-2">
                                             <img
-                                                src="img/illustrations/800x800_card-image-02.webp"
-                                                alt="Illustration"
+                                                src="img/stats-clients.png"
+                                                alt="Returning Clients"
                                             />
                                         </div>
                                     </div>
@@ -165,8 +165,8 @@ export default function StatsCards() {
                                         </div>
                                         <div className="mxd-stats-cards__image mxd-stats-cards-image-3">
                                             <img
-                                                src="img/illustrations/800x800_card-image-03.webp"
-                                                alt="Illustration"
+                                                src="img/stats-tech.png"
+                                                alt="Digital Transformation"
                                             />
                                         </div>
                                     </div>
@@ -197,8 +197,8 @@ export default function StatsCards() {
                                         </div>
                                         <div className="mxd-stats-cards__image mxd-stats-cards-image-4">
                                             <img
-                                                src="img/illustrations/800x800_card-image-04.webp"
-                                                alt="Illustration"
+                                                src="img/stats-success.png"
+                                                alt="Completed Projects"
                                             />
                                         </div>
                                     </div>

@@ -39,8 +39,13 @@ export default function ContactCTA() {
                             <div className="mxd-promo__images">
                                 <img
                                     className="promo-image promo-image-1"
-                                    src="img/illustrations/cta-img-01.webp"
-                                    alt="Image"
+                                    src="img/3d-logo.png"
+                                    alt="Webisse 3D Logo"
+                                    style={{
+                                        objectFit: "contain",
+                                        transform: "translateY(-40px) scale(1.4)",
+                                        filter: "drop-shadow(0 20px 40px rgba(0,0,0,0.3))"
+                                    }}
                                 />
                                 <img
                                     className="promo-image promo-image-2"
@@ -51,8 +56,8 @@ export default function ContactCTA() {
                         </div>
                     </div>
                 </div>
-                {/* Block - CTA End */}
             </div>
+            {/* Block - CTA End */}
         </div>
     );
 }
